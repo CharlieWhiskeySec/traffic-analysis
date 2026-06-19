@@ -1,6 +1,27 @@
-# traffic-analysis
-Network traffic analysis using Wireshark and PCAP data to identify malicious behavior, including brute force attempts and suspicious network patterns.
+# Project Name
 
-This repository contains network traffic investigations performed using Wireshark and PCAP analysis. The focus is on identifying malicious activity and understanding how attacks appear at the network level.
+## Overview
+Brief description of what this project is.
 
-These exercises simulate real-world SOC workflows by analyzing packet-level data to detect indicators of compromise.
+## Objective
+What I wanted to learn or demonstrate.
+
+## Tools Used
+- Splunk Enterprise
+- Windows Server / Active Directory
+- Windows 10 Endpoint
+- Kali Linux
+- Sysmon / Windows Event Logs
+
+## Skills Demonstrated
+- Log analysis
+- SPL searching
+- Detection logic
+- Dashboard creation
+- Authentication event analysis
+
+## Project Status
+In progress
+
+## Notes
+This project is part of my cybersecurity engineering portfolio focused on SIEM, identity, and detection engineering.
