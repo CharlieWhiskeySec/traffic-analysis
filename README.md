@@ -2,33 +2,48 @@
   <img src="https://github.com/user-attachments/assets/02a7bd81-ee10-4cf1-aef9-c0649a03a4ea" width="200">
 </p>
 
-# Project Name
+# Traffic Analysis
 
 ## Overview
-Brief description of what this project is.
 
-## Objective
-What I wanted to learn or demonstrate.
+This repository documents network traffic analysis exercises performed to better understand network communications, identify suspicious activity, and support security investigations.
 
-## Tools Used
-- Splunk Enterprise
-- Windows Server / Active Directory
-- Windows 10 Endpoint
-- Kali Linux
-- Sysmon / Windows Event Logs
+The goal is to develop practical packet analysis skills while learning how network evidence complements endpoint telemetry collected through Splunk Enterprise and Windows Security logs.
 
-## Skills Demonstrated
-- Log analysis
-- SPL searching
-- Detection logic
-- Dashboard creation
-- Authentication event analysis
+As the lab environment grows, this repository will include packet captures, protocol analysis, and investigation scenarios that mirror real-world security operations.
 
-## Project Status
-In progress
+## Objectives
 
-## Notes
-This project is part of my cybersecurity engineering portfolio focused on SIEM, identity, and detection engineering.
+- Analyze packet captures using Wireshark.
+- Understand common network protocols.
+- Identify suspicious network behavior.
+- Correlate network traffic with endpoint events.
+- Document investigation methodology and findings.
+- Build practical network analysis skills.
+
+## Planned Analysis Topics
+
+- DNS Analysis
+- HTTP and HTTPS Traffic
+- SMB Traffic
+- Kerberos Authentication
+- RDP Sessions
+- Network Scanning Activity
+
+## Current Status
+
+### In Progress
+
+- Repository structure
+- Documentation planning
+
+### Planned
+
+- Packet capture analysis
+- Protocol walkthroughs
+- Investigation scenarios
+- Detection opportunities
+- Lessons learned
 
 ## Related Projects
 
