@@ -29,3 +29,9 @@ In progress
 
 ## Notes
 This project is part of my cybersecurity engineering portfolio focused on SIEM, identity, and detection engineering.
+
+## Related Projects
+
+- 🏢 [Active Directory Security Lab](https://github.com/CharlieWhiskeySec/active-directory-security-lab) – Source environment for authentication and endpoint telemetry.
+- 🔍 [Splunk Detections](https://github.com/CharlieWhiskeySec/splunk-detections) – Detection engineering using Windows and network telemetry.
+- 🕵️ [Security Investigations](https://github.com/CharlieWhiskeySec/soc-investigations) – Investigation walkthroughs that incorporate network and endpoint evidence.
