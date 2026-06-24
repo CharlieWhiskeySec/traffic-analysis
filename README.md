@@ -30,7 +30,7 @@ As the lab environment grows, this repository will include packet captures, prot
 - RDP Sessions
 - Network Scanning Activity
 
-## Current Status
+## Project Status
 
 ### In Progress
 
