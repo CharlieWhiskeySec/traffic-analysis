@@ -6,6 +6,12 @@
 Traffic Analysis
 </h1>
 
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Planned Analysis Topics](#lab-environment)
+- [Project Status](#project-status)
+- [Related Projects](#related-projects)
+
 ## Overview
 
 This repository documents network traffic analysis exercises performed to better understand network communications, identify suspicious activity, and support security investigations.
