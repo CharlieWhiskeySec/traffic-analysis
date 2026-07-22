@@ -2,59 +2,149 @@
   <img src="https://github.com/user-attachments/assets/02a7bd81-ee10-4cf1-aef9-c0649a03a4ea" width="200">
 </p>
 
-<h1 align="center">
-Traffic Analysis
-</h1>
+<h1 align="center">Traffic Analysis</h1>
 
-- [Overview](#overview)
-- [Objectives](#objectives)
-- [Planned Analysis Topics](#lab-environment)
-- [Project Status](#project-status)
-- [Related Projects](#related-projects)
+<p align="center">
+  <strong>Part of the Charlie Whiskey Security Labs Enterprise</strong><br>
+  Network Analysis • Packet Inspection • Protocol Analysis • Threat Detection
+</p>
 
-## Overview
+<p align="center">
+  🏢 <a href="https://github.com/CharlieWhiskeySec/charlie-whiskey-security-labs"><strong>Enterprise Hub</strong></a>
+</p>
 
-This repository documents network traffic analysis exercises performed to better understand network communications, identify suspicious activity, and support security investigations.
+---
 
-The goal is to develop practical packet analysis skills while learning how network evidence complements endpoint telemetry collected through Splunk Enterprise and Windows Security logs.
+# Overview
 
-As the lab environment grows, this repository will include packet captures, protocol analysis, and investigation scenarios that mirror real-world security operations.
+The **Traffic Analysis** repository documents network investigations performed within **Charlie Whiskey Security Labs (CWSL)**.
 
-## Objectives
+Using packet captures (PCAPs), protocol analysis, and network monitoring tools, this repository demonstrates how network traffic can be analyzed to identify suspicious behavior, investigate incidents, and validate security detections.
 
-- Analyze packet captures using Wireshark.
-- Understand common network protocols.
-- Identify suspicious network behavior.
-- Correlate network traffic with endpoint events.
-- Document investigation methodology and findings.
-- Build practical network analysis skills.
+---
 
-## Planned Analysis Topics
+# Enterprise Role
 
-- DNS Analysis
-- HTTP and HTTPS Traffic
-- SMB Traffic
-- Kerberos Authentication
-- RDP Sessions
-- Network Scanning Activity
+Within Charlie Whiskey Security Labs, traffic analysis supports the Security Operations program by providing network visibility during threat hunting and incident response.
 
-## Project Status
-
-### In Progress
-
-- Repository structure
-- Documentation planning
-
-### Planned
+Primary responsibilities include:
 
 - Packet capture analysis
-- Protocol walkthroughs
-- Investigation scenarios
-- Detection opportunities
-- Lessons learned
+- Protocol analysis
+- Network-based threat detection
+- IOC identification
+- Incident investigation support
+- Network traffic validation
 
-## Related Projects
+---
 
-- 🏢 [Active Directory Security Lab](https://github.com/CharlieWhiskeySec/active-directory-security-lab) – Source environment for authentication and endpoint telemetry.
-- 🔍 [Splunk Detections](https://github.com/CharlieWhiskeySec/splunk-detections) – Detection engineering using Windows and network telemetry.
-- 🕵️ [Security Investigations](https://github.com/CharlieWhiskeySec/soc-investigations) – Investigation walkthroughs that incorporate network and endpoint evidence.
+# Environment
+
+| Component | Details |
+|-----------|---------|
+| Enterprise | Charlie Whiskey Security Labs |
+| Analysis Tools | Wireshark, tcpdump *(if applicable)* |
+| Data Sources | PCAP Files |
+| Operating Systems | Windows 11, Kali Linux |
+| Supporting Systems | Splunk Enterprise |
+
+---
+
+# Analysis Workflow
+
+```text
+Enterprise Network Traffic
+            │
+            ▼
+      Packet Capture
+            │
+            ▼
+        Wireshark
+            │
+ ┌──────────┼──────────┐
+ │          │          │
+ ▼          ▼          ▼
+Protocols Conversations Indicators
+            │
+            ▼
+      Investigation Findings
+            │
+            ▼
+      SOC Investigation
+```
+
+---
+
+# Current Capabilities
+
+- PCAP analysis
+- Protocol inspection
+- Network conversation analysis
+- TCP/IP troubleshooting
+- DNS analysis
+- HTTP/HTTPS inspection
+- IOC identification
+- Network artifact documentation
+
+---
+
+# Repository Structure
+
+```text
+traffic-analysis/
+├── investigations/
+├── pcaps/
+├── references/
+├── images/
+└── README.md
+```
+
+| Folder | Purpose |
+|---------|---------|
+| investigations | Network investigation write-ups |
+| pcaps | Packet capture files |
+| references | Protocol documentation |
+| images | Screenshots and diagrams |
+
+---
+
+# Project Status
+
+| Component | Status |
+|-----------|:------:|
+| Wireshark Analysis | ✅ Operational |
+| Packet Analysis | ✅ Operational |
+| Protocol Analysis | ✅ Operational |
+| Investigation Documentation | 🚧 In Progress |
+| Enterprise Case Studies | 📅 Planned |
+| Threat Hunting Scenarios | 📅 Planned |
+
+---
+
+# Future Enhancements
+
+- Malware traffic analysis
+- DNS tunneling investigations
+- Beaconing detection
+- Lateral movement analysis
+- Threat hunting scenarios
+- Enterprise attack simulations
+
+---
+
+# Related Enterprise Projects
+
+| Repository | Description |
+|------------|-------------|
+| 🏢 Charlie Whiskey Security Labs | Enterprise documentation and architecture |
+| 🖥 Active Directory Security Lab | Enterprise identity platform |
+| 📊 Splunk Detection Engineering | SIEM monitoring and detections |
+| 🔍 SOC Investigations | Incident response and investigations |
+
+---
+
+<p align="center">
+
+Built as part of the **Charlie Whiskey Security Labs** enterprise.
+
+</p>
