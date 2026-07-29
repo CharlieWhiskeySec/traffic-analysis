@@ -146,9 +146,3 @@ This project is part of the **Charlie Whiskey Security Labs (CWSL)** simulated e
 | 🐧 [Linux Administration](https://github.com/CharlieWhiskeySec/linux-administration) | Linux administration, infrastructure fundamentals, permissions, services, and networking |
 ```
 ---
-
-<p align="center">
-
-Built as part of the **Charlie Whiskey Security Labs** enterprise.
-
-</p>
